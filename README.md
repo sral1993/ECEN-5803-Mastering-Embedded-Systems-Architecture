@@ -95,6 +95,9 @@ shell script at startup.<br>
 • Module 6: Creating a custom WINCE operating system using Platform Builder.<br>
 • Module 7: Running a Dhyrstone Benchmark for AM3358 MPU.<br>
 
+<img src="https://github.com/sral1993/ECEN-5803-Mastering-Embedded-Systems-Architecture/blob/master/VOIP%20Gateway/shiril_to_vishnu_call.jpg" alt="BD">
+<img src="https://github.com/sral1993/ECEN-5803-Mastering-Embedded-Systems-Architecture/blob/master/VOIP%20Gateway/shiril_to_vishnu_reception.jpg" alt="BD">
+
 Recommendations: <br>
 The AM3358 MPU was evaluated qualitatively and quantitatively keeping in mind the
 design and performance requirements listed by Patton Equipment in the RFS for their
