@@ -62,3 +62,36 @@ A more suitable component given the requirements from Keithley is the STM32F76x 
 Entire Analysis can be viewed in the Signal Analyzer directory.
 <br>
 <br>
+
+<b> VOIP Gateway </b>
+<br>
+This project is intended to serve as a high level design and analysis document, pursuant to request for services issued by Patton Equipment,for the design evaluation of a IP-PBX based VoIP Gateway. Based on the design and performance requirements desired by the client, evaluation tests were carried out using the Beagle Bone Black platform, with the aid of external hardware and software components. Using these test results, which are listed as project deliverables, the suitability of the AM 3358 MPU for the IP-PBX based VoIP Gateway was evaluated, along with providing recommendations pertaining to full system design and performance. <br>
+The main objective of this document is to analyze the suitability of the AM3358 MPU
+for Pattons proposed e911 IP-PBX VoIP Gateway. This analysis has been performed in
+accordance with the following objectives: <br>
+• Verify the performance of the AM3358 MPU in terms of its hardware capabilities,
+peripherals, and network interfaces so as to meet the requirements specified in the
+Request for Services (RFS). <br>
+• Evaluate the compatibility of Windows Compact Embedded and Linux operating
+systems for the proposed VoIP Gateway.<br>
+• Analyze the capabilities of the AM3358 MPU with respect to its signal processing
+functionality for audio/speech encoding and decoding.<br>
+• Evaluate the IP-PBX VoIP capabilities of AM3358 MPU. <br>
+• Determine whether a AM3358 MPU based system can be realized within the provided
+budget, schedule, and performance constraints, and provide Patton with a
+recommendation accordingly. <br>
+<img src="https://github.com/sral1993/ECEN-5803-Mastering-Embedded-Systems-Architecture/blob/master/VOIP%20Gateway/Project3_Blockdiagram.PNG" alt="BD">
+A modularized approach was taken for evaluating the software capabilities of the
+AM3358 MPU by executing and analyzing independent software tasks as follows:
+• Module 1: Using Platform Builder to create Windows Compact Embedded (WINCE)
+Toolchain.
+• Module 2: Testing and comparing the compatibility of WINCE 2007 and WINCE
+2013 with the AM3358 MPU. Implementing a G.711 decoder/encoder to process audio
+files for PBX I/O functionality.
+• Module 3: Booting Linux on the AM3358 MPU and executing a custom diagnostic
+shell script at startup.
+• Module 4: Building a custom PBX using Asterisk to test the VoIP Gateway.
+• Module 5: Deploying a custom telecom/IOT application using the AM3358 MPU.
+• Module 6: Creating a custom WINCE operating system using Platform Builder.
+• Module 7: Running a Dhyrstone Benchmark for AM3358 MPU.
+
