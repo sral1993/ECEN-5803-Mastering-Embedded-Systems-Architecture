@@ -1,5 +1,5 @@
 # Embedded System Design Evaluations
-In this project, I have evaluated various MCU's and MPU's for suitability of three applications.
+In this project, we have evaluated various MCU's and MPU's for suitability of three applications.
 <br>
 1. Flow meter <br>
 2. Signal Analyzer <br>
