@@ -82,16 +82,33 @@ budget, schedule, and performance constraints, and provide Patton with a
 recommendation accordingly. <br>
 <img src="https://github.com/sral1993/ECEN-5803-Mastering-Embedded-Systems-Architecture/blob/master/VOIP%20Gateway/Project3_Blockdiagram.PNG" alt="BD">
 A modularized approach was taken for evaluating the software capabilities of the
-AM3358 MPU by executing and analyzing independent software tasks as follows:
+AM3358 MPU by executing and analyzing independent software tasks as follows: <br>
 • Module 1: Using Platform Builder to create Windows Compact Embedded (WINCE)
-Toolchain.
+Toolchain.<br>
 • Module 2: Testing and comparing the compatibility of WINCE 2007 and WINCE
 2013 with the AM3358 MPU. Implementing a G.711 decoder/encoder to process audio
-files for PBX I/O functionality.
+files for PBX I/O functionality.<br>
 • Module 3: Booting Linux on the AM3358 MPU and executing a custom diagnostic
-shell script at startup.
-• Module 4: Building a custom PBX using Asterisk to test the VoIP Gateway.
-• Module 5: Deploying a custom telecom/IOT application using the AM3358 MPU.
-• Module 6: Creating a custom WINCE operating system using Platform Builder.
-• Module 7: Running a Dhyrstone Benchmark for AM3358 MPU.
+shell script at startup.<br>
+• Module 4: Building a custom PBX using Asterisk to test the VoIP Gateway.<br>
+• Module 5: Deploying a custom telecom/IOT application using the AM3358 MPU.<br>
+• Module 6: Creating a custom WINCE operating system using Platform Builder.<br>
+• Module 7: Running a Dhyrstone Benchmark for AM3358 MPU.<br>
+
+Recommendations: <br>
+The AM3358 MPU was evaluated qualitatively and quantitatively keeping in mind the
+design and performance requirements listed by Patton Equipment in the RFS for their
+e911 IP-PBX VoIP Gateway product. Based on the modular test results, we can affirm
+that the AM3358 MPU performs satisfactorily from both, hardware and software
+perspectives. The AM3358 MPU was observed to operate at well over 500 VAX DMIPS,
+which exceeds the processing requirement listed in the RFS. Further, from a system
+design standpoint, the development cost for a single prototype the was $120. Although
+this exceeds the price limit in the RFS, we are confident that the system can be
+developed at a much lower price if bulk production (to the order of 5000 units) is
+undertaken, in which case the price would fall well within the budget limitation of $50.
+Thus, development of the product is certainly feasible within the time and budget
+constraints specified in the RFS, and hence, the evaluation team has given the AM3358
+MPU a straight GO for Patton Equipment’s e911 IP-PBX VoIP Gateway product.
+<br>
+Entire Analysis can be viewed in VOIP Gateway directory
 
